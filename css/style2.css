@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #212F3D;
+}
+
+.eng{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.kh-title{
+	font-family: 'Preahvihear', cursive;
+}
+
+.kh{
+	font-family: 'Content', cursive;
+}
+
+.card{
+	/*background-color: red;*/
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	box-shadow: 2px 4px 20px #333;
+}
+
+.card:hover .image > img{
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%,-100%);
+}
+
+.card:hover .content{
+	top: -10px;
+}
+
+.card .image > img{
+	width: 100%;
+	margin-bottom: -3px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 10;
+	cursor: pointer;
+	transition: all 0.3s linear;
+}
+
+.card .content{
+	width: 90%;
+	background-color: #34495E;
+	color: #f6f6f6;
+	text-align: center;
+	padding: 10px 40px;
+	position: absolute;
+	z-index: 5;
+	top: -160px;
+	transition: all 0.3s linear;
+	box-shadow: 2px 4px 20px #333;
+}
+
+.card .content .title{
+	margin: 0;
+}
