@@ -8,7 +8,7 @@
   - Flexbox
  
 # លំហាត់ Card
-![Thumbnail](/image/1.jpg)
+![Thumbnail](/images/1.jpg)
 # កូដ HTML:
 ```javascript
 <!DOCTYPE html>
